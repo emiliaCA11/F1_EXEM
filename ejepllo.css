@@ -1,0 +1,80 @@
+Body{
+    background: url(https://st2.depositphotos.com/1000874/9008/i/450/depositphotos_90082314-stock-photo-blue-night-sky.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    width: 100%;
+    height: 50px;
+    box-shadow: 1px 1px 5px #000;
+    position: fixed;
+    background: #5D6D7E;
+}
+h2{
+    text-align: left;
+    font-family:inherit;
+    color:cadetblue;
+    font-size: 200%;  
+    padding: 0px;
+    padding-left: 30px;
+}
+h3{
+    font-family: monospace;
+    color: Black;
+    font-size: 255%;
+    padding-left: 30px;
+}
+.Uno > li{
+    display: block;
+    float: left;
+    list-style: none;
+    height: 30px;
+    overflow: hidden;
+    text-align:left;
+}
+.Uno > li:hover{
+    height: auto;
+}
+.Dos > li{
+    list-style: none;
+    margin-left: -30px;
+    font-size: 20px;
+    color: white;
+}
+.Dos a{
+    color: #1C2833 ;
+    text-decoration: none;
+}
+.Dos a:hover{
+    color: white; 
+}
+.Uno > li > a{
+    width: 240px;
+    display: block;
+    float:left;
+    text-align: center;
+    text-decoration: none;
+    color: brown;
+    font-size: 23px;
+}
+P {
+  padding-left: 30px;
+  overflow: hidden;
+  height: 90%;
+  width: 1200px;
+  text-align: justify;
+  color: white;
+}
+table{
+  padding-left: 30px;
+  border-color:beige;
+  color: antiquewhite;
+    
+}
+ol{
+    padding-left: 30px;
+    color: white;
+}
+ul{
+    color: white;
+}
